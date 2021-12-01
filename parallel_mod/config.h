@@ -20,3 +20,4 @@ using std::fprintf;
 #endif
 
 #define verify(bool_expr) if (!(bool_expr)) {fprintf(stderr, "Error in %s (%d)\n", __FILE__, __LINE__); abort();}
+#define ceil_div(x, y) (((x) + (y - 1)) / (y)) //////////////
